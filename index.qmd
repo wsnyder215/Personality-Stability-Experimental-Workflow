@@ -53,7 +53,7 @@ creating an structured output measure using IntEnum (for the BigFive test this w
 output consisting of each question to be asked. The responses to each question are recorded as a number and summed up to create the test result (in vector form). The 
 personality tests queries are not included in the chat history given to the AI to avoid any kind of bias it may receive when give subsequent tests.
 
-have_sim_personality = The have_sim_personality tool measures the difference between two personalities using the gaussian kernel measure. It has an input that the researcher 
+have_sim_personality - The have_sim_personality tool measures the difference between two personalities using the gaussian kernel measure. It has an input that the researcher 
 can fill in to indicate the threshold at which two personalities can be deemed 'similar'. It also has a sigma input that can be tuned based on what works best for the given 
 personality space.
 
@@ -62,8 +62,13 @@ vector and converting it into a prompt format that the AI can understand. This a
 certain personality.
 
 ![Overarching Structure](images/function_prereq_graph.svg)
+
+
 ![Experiment Workflow](images/workflow_01.png)
-![Example of the workflow in action](images/workflow-example.png) # 
+
+
+![Example of the workflow in action](images/workflow-example.png) 
+
 
 ## Team
 
