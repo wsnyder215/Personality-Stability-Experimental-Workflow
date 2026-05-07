@@ -19,7 +19,7 @@ experiments on AI behavior in response to any given 'nudge'.
 2. Create a virtual environment and install dependencies:
 
 ```bash
-python -m venv .venv
+py -3.13 -m venv .venv
 source .venv/bin/activate  # macOS
 .venv\Scripts\Activate.ps1  # Windows PowerShell
 pip install -r requirements.txt
